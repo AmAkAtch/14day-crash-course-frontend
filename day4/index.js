@@ -1,3 +1,10 @@
-const axios = require("axios");
+import axios from "axios";
 
-console.log("Quote Generator is running!");
+export async function genRandomQuote() {
+  const response = await axios.get("https://api.quotable.io/random");
+  let quote = response.data[0].q;
+  console.log(quote);
+  return quote;
+}
+
+genRandomQuote();

@@ -1,0 +1,16 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+button {
+  padding: 10px;
+  background: rgb(77, 77, 255);
+  color: white;
+}
+button:hover {
+  background: blue;
+  cursor: pointer;
+}
+button:active {
+  background: rgb(174, 0, 255);
+}
