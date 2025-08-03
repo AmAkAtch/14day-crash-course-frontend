@@ -1,0 +1,64 @@
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+:root {
+  --primary-color: navy;
+}
+
+header {
+  background-color: beige;
+  padding: 3vh;
+  margin-bottom: 1vh;
+}
+
+h1,
+h2 {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.item-color {
+  font-size: 18px;
+  margin-bottom: -10px;
+}
+
+.container {
+  margin-top: 10px;
+  text-align: center;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+footer {
+  background-color: rgb(236, 234, 234);
+  padding: 1% 2%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: rgb(158, 255, 158);
+  transition: 0.3ms;
+  margin-top: 5px;
+}
+button:hover {
+  background: rgb(67, 255, 67);
+  cursor: pointer;
+}
